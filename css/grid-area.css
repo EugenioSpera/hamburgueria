@@ -1,0 +1,34 @@
+.container{
+    display:grid;
+    grid-template-areas: 
+    "first second third " 
+    "fourth fifth sixth";
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-auto-rows: 200px;
+    gap: 300px 30px;
+}
+
+.item1{
+
+    grid-area: first;
+
+}
+.item2{
+    grid-area: second;
+}
+
+.item3{
+    grid-area: third;
+}
+
+.item4{
+    grid-area: fourth;
+}
+
+.item5{
+    grid-area: fifth;
+}
+
+.item6{
+    grid-area: sixth;
+}
