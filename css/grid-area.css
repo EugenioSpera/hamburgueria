@@ -4,7 +4,7 @@
     "first second third " 
     "fourth fifth sixth";
     grid-template-columns: 2fr 2fr 2fr;
-    grid-auto-rows: 200px;
+    grid-auto-rows: 100px;
     gap: 300px 30px;
 }
 

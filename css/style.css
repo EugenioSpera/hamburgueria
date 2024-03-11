@@ -1,7 +1,15 @@
 .container-inicial{
-    width: 1920px;
-    height: 2348px;
+    width: 1920px; 
+    height: 350px;   
     background: #141414;
+    padding: 0;
+    
+   
+}
+
+.menu__logo{
+    list-style: none;
+    opacity: 0;
 }
 
 .menu__itens{
@@ -13,6 +21,7 @@
     list-style: none;
     align-items: center;
     padding-left: 200px;
+    
 }
 
 .menu-logo{
@@ -52,12 +61,17 @@
     border-radius: 5px;
     border: 1px solid #FFF;
     background-color:#141414 ;
-    color: #fff;
-    
-    
-    
-    
+    color: #fff;  
+        
 }
+
+
+.menu__text{
+    background: #141414;
+    margin-top: 0;
+   
+}
+
 
 h1{
     width: 592px;
@@ -73,10 +87,13 @@ h1{
 .menu__text-login{
     display: flex;
     flex-direction: column;
+    margin-top: 0;
 }
 
 .menu__text{
     display: flex;
+    width: 1920px;
+    height: ;
     
 }
 
@@ -124,7 +141,8 @@ h1{
     flex-shrink: 0;
     background: #1F1F1F;
     height: 300px;
-}
+    margin-top: -100px;
+}  
 
 .menu__container{
     display: flex;
@@ -155,6 +173,7 @@ h1{
     padding-top: 10px 10px 10px 0;
     display: flex;
     gap: 20px;
+    
 
     
 }
@@ -169,23 +188,28 @@ h1{
     padding: 10px;
     gap: 80px;
     display: flex;
+    
+    
         
 }
 
 .menu-input{
-    background: #2B2B2B;
-    border-color: none;
+    background: #2B2B2B;    
+    outline: none;
+    
 }
 
 
 .container{
-    width: 384px;
-    height: 416px;
-    flex-shrink: 0;
-    border-radius: 8px;  
+    width: 1920px;
+    height: 1000px;
+    flex-shrink: 0;    
+    align-items: center;  
+    justify-content: center;    
     padding-left: 200px;
-    margin-top: 50px;
-
+    background-color: #141414;
+     
+    
 }
 
 .item{
@@ -197,8 +221,8 @@ h1{
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding-top: 30px;   
-    
+    margin-top: 120px;
+    gap: -50px;
     
 }
 
@@ -208,12 +232,11 @@ h1{
     width: 90%;
     height: 200px;
     flex-shrink: 0;
-    list-style-type: none;
-    padding: 20px;
+    list-style-type: none;    
     flex-direction: column;
     background-color: rgb(25, 25, 25); 
     margin-top: -50px;
-    padding-top: 50px;
+   
         
 }
 
