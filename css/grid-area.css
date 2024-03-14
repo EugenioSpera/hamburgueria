@@ -6,11 +6,12 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-auto-rows: 100px;
     gap: 300px 0px;
-    width: 1920px;
+    width: 100%;
     height: 1000px;       
     align-items: center;  
     justify-content: center;       
     background-color: #141414;
+    
     
 }
 
