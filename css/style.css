@@ -214,10 +214,9 @@ h1{
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-top: 120px;
-    margin-left: 200px;
-    
-    
+    margin-top: 120px;  
+
+  
 }
 
 
@@ -230,11 +229,11 @@ h1{
     flex-direction: column;
     background-color: rgb(25, 25, 25); 
     margin-top: -50px;   
-        
+    
 }
 
 .img-card{
-    width: 384px;
+    
     display: flex;
     align-items: center;
     justify-content: center;
