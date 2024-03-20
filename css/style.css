@@ -67,6 +67,7 @@
 
 main{
     width: 100%;
+    background-color: #141414;
 }
 
 
@@ -206,8 +207,7 @@ h1{
 
 
 .item{
-    width: 384px;
-    height: 150px;
+    
     flex-shrink: 0;
     border-radius: 8px 8px 0px 0px;
     background: #2B2B2B;    
@@ -215,20 +215,22 @@ h1{
     align-items: center;
     flex-direction: column;
     margin-top: 120px;  
-
-  
+    height: 200px;
+    width: 384px;
+    
 }
 
 
 .cards{
 
-    width: 384px;
-    height: 200px;
-    flex-shrink: 0;
+    width: 90%;
+    
     list-style-type: none;    
     flex-direction: column;
     background-color: rgb(25, 25, 25); 
     margin-top: -50px;   
+    padding: 50px 20px 10px 20px;
+     
     
 }
 
@@ -237,6 +239,10 @@ h1{
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 200px;
+    position: relative;
+    
+    
 }
 
 .cards-type{
@@ -247,6 +253,7 @@ h1{
     font-weight: 500;
     line-height: normal; 
     padding-top: 10px;
+    width: 80%;
 
 }
 
@@ -256,9 +263,9 @@ h1{
     font-size: 32px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
-    width: 296px;
+    line-height: normal;    
     padding-top: 10px;
+    width: 80%;
 }
 
 .cards-price{
@@ -269,6 +276,7 @@ h1{
     font-weight: 700;
     line-height: normal;
     padding-top: 10px;
+    width: 80%;
 
 }
 
